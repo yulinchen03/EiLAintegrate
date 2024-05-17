@@ -1,0 +1,22 @@
+/EiLA/Annotations
+/EiLA/Annotations_Output
+/EiLA/Videos
+/EiLA/README.txt
+/EiLA/Extra
+/EiLA/Preprocessing/1.Bounding_boxes/test
+/EiLA/Preprocessing/1.Bounding_boxes/train
+/EiLA/Preprocessing/2.Face_detection/test
+/EiLA/Preprocessing/2.Face_detection/train
+/EiLA/Preprocessing/3.Cropped_faces/test
+/EiLA/Preprocessing/3.Cropped_faces/train
+/EiLA/Preprocessing/4.Resized_image/test
+/EiLA/Preprocessing/4.Resized_image/train
+/SFEW
+!/SFEW/preprocessing.py
+/FER2013
+/EiLA.docx
+/notes.txt
+/Project idea proposal.pptx
+/Research_Proposal___Investigating_Cross_cultural_Generalizability_of_Facial_Emotion_Recognition_with_Multi_dataset_Training.pdf
+/Students Manual - Research Component_2023 2B.pdf
+
