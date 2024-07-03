@@ -14,9 +14,9 @@ well-known FER models.
 ![](https://github.com/yulinchen03/EiLAintegrate/blob/master/Misc_images_for_thesis/difference_after_integration.png?raw=true)
 
 ## Navigation
-1. Pre-processing
+1. Pre-processing__
 To check out how pre-processing was done on the EiLA dataset, checkout [crop_faces.py](https://github.com/yulinchen03/EiLAintegrate/blob/master/EiLA/Preprocessing/1.%20Detect_and_Crop_Images/crop_faces.py) & [process_image.py](https://github.com/yulinchen03/EiLAintegrate/blob/master/EiLA/Preprocessing/2.Resized_image/process_image.py)
-2. Data Integration
+2. Data Integration__
 To look at how data was integrated between datasets, checkout [dataset_integration](https://github.com/yulinchen03/EiLAintegrate/blob/master/Experiment%20Notebooks/dataset_integration.ipynb)
 
 
