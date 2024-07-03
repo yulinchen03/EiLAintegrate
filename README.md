@@ -16,6 +16,6 @@ well-known FER models.
 ## Navigation
 1. Pre-processing: To check out how pre-processing was done on the EiLA dataset, check [crop_faces.py](https://github.com/yulinchen03/EiLAintegrate/blob/master/EiLA/Preprocessing/1.%20Detect_and_Crop_Images/crop_faces.py) & [process_image.py](https://github.com/yulinchen03/EiLAintegrate/blob/master/EiLA/Preprocessing/2.Resized_image/process_image.py)
 2. Data Integration: To look at how data was integrated between datasets, checkout [dataset_integration](https://github.com/yulinchen03/EiLAintegrate/blob/master/Experiment%20Notebooks/dataset_integration.ipynb)
-3. Training & Testing: To see how training and testing was performed, checkout [Benchmark_experiments](https://github.com/yulinchen03/EiLAintegrate/tree/master/Experiment%20Notebooks/Benchmark_experiments)
+3. Training & Testing: To see how training and testing were performed, checkout [Benchmark_experiments](https://github.com/yulinchen03/EiLAintegrate/tree/master/Experiment%20Notebooks/Benchmark_experiments), [FER2013_experiments](https://github.com/yulinchen03/EiLAintegrate/tree/master/Experiment%20Notebooks/FER2013_experiments) and [SFEW_experiments](https://github.com/yulinchen03/EiLAintegrate/tree/master/Experiment%20Notebooks/SFEW_experiments)
 
 
