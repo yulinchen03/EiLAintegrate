@@ -10,3 +10,5 @@ with EiLA (Emotions in LatAm Dataset), a newly curated emotion recog-
 nition in-the-wild dataset consisting of video recordings of Latin American
 populations and their facial expressions, on the accuracy and performance of
 well-known FER models. 
+
+![](https://github.com/yulinchen03/EiLAintegrate/blob/master/Misc_images_for_thesis/difference_after_integration.png?raw=true)
