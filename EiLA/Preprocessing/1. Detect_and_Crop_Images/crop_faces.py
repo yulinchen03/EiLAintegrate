@@ -61,30 +61,12 @@ for emotion in emotion_labels_common.keys(): # for the train, validation & test 
     if not os.path.exists(os.path.join(cropped_image_output, 'EiLA_validation', emotion)):
         os.makedirs(os.path.join(cropped_image_output, 'EiLA_validation', emotion))
 
-# for file in os.listdir(os.path.join(cropped_image_output, 'EiLA_train')):
-#     if os.path.isfile(os.path.join(cropped_image_output, 'EiLA_train', file)):
-#         emotion_index = int(file.split('_')[2])
-#         emotion = get_key_from_value(emotion_labels, emotion_index)
-#         shutil.copy(os.path.join(cropped_image_output, 'EiLA_train', file), os.path.join(cropped_image_output, 'EiLA_train', emotion, file))
-# for file in os.listdir(os.path.join(cropped_image_output, 'EiLA_test')):
-#     if os.path.isfile(file):
-#         emotion_index = int(file.split('_')[2])
-#         emotion = get_key_from_value(emotion_labels, emotion_index)
-#         shutil.copy(os.path.join(cropped_image_output, 'EiLA_test', file), os.path.join(cropped_image_output, 'EiLA_test', emotion, file))
-# for file in os.listdir(os.path.join(cropped_image_output, 'EiLA_validation')):
-#     if os.path.isfile(os.path.join(cropped_image_output, 'EiLA_validation', file)):
-#         emotion_index = int(file.split('_')[2])
-#         emotion = get_key_from_value(emotion_labels, emotion_index)
-#         shutil.copy(os.path.join(cropped_image_output, 'EiLA_validation', file), os.path.join(cropped_image_output, 'EiLA_validation', emotion, file))
-
 # Open annotations.csv
 with open(annotations_csv, newline='') as csvfile:
     reader = csv.reader(csvfile)
     next(reader)
     for idx, row in enumerate(reader):
         print(idx, row)
-        # Assuming each row has three values, you can save them into variables
-        # Change the variable names and number according to your CSV structure
         video_tag, clip_id, label, frame_no, x, y, w, h, person_id = row
         video_folder_path = os.path.join(videos_folder, video_tag)
         video_path = os.path.join(video_folder_path, 'Complete.mp4')
