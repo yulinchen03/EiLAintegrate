@@ -12,3 +12,8 @@ populations and their facial expressions, on the accuracy and performance of
 well-known FER models. 
 
 ![](https://github.com/yulinchen03/EiLAintegrate/blob/master/Misc_images_for_thesis/difference_after_integration.png?raw=true)
+
+## Navigation
+To check out how pre-processing was done on the EiLA dataset, checkout [crop_faces.py](https://github.com/yulinchen03/EiLAintegrate/blob/master/EiLA/Preprocessing/1.%20Detect_and_Crop_Images/crop_faces.py)
+
+
